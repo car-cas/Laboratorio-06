@@ -25,7 +25,7 @@ import static org.quicktheories.generators.SourceDSL.*;
  */
 
 public class ServiciosAlquilerTest {
-
+/**
     @Inject
     private SqlSession sqlSession;
 
@@ -38,7 +38,7 @@ public class ServiciosAlquilerTest {
     @Before
     public void setUp() {
     }
-    /**@Test
+    @Test
     public void emptyDB() {
         qt().forAll(integers().allPositive()).check((id) -> {
             boolean r = false;
@@ -69,6 +69,7 @@ public class ServiciosAlquilerTest {
             }
              return r;
         });
-    }*//
+    }
 
+**/
 }
