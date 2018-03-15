@@ -40,3 +40,8 @@ CREATE TABLE IF NOT EXISTS `VI_ITEMRENTADO` (
   `fechafinrenta` DATE NOT NULL);
 
 
+
+
+
+
+
